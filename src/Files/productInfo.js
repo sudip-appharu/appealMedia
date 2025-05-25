@@ -2,7 +2,7 @@ import image1 from "../assets/lokpath.PNG";
 import image2 from "../assets/kantipur.PNG";
 import image3 from "../assets/Nagarik.PNG";
 import image4 from "../assets/himalaya.PNG";
-import image5 from "../assets/onlinekhabar.png";
+import image5 from "../assets/onlinekhabar.PNG";
 
 export let productInfo = [
   {
