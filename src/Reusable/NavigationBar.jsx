@@ -16,7 +16,7 @@ const NavigationBar = () => {
               className="h-full w-full object-cover object-center border-2 border-solid border-white rounded-full "
             />
           </div>
-          <ul className="flex justify-between gap-x-6.5 mr-24 sticky top-0">
+          <ul className="flex justify-between gap-x-7 mr-24 sticky top-0">
             <NavLink
               to="/"
               title="Home"

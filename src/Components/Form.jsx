@@ -12,7 +12,7 @@ const Form = () => {
       <form className="flex flex-col gap-y-6">
         <h1 className="font-bold text-2xl text-gray-800">Get in Touch</h1>
 
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col md:flex-col gap-4">
           <div className="flex flex-col flex-1">
             <label htmlFor="firstName" className="text-sm text-gray-600">
               First Name

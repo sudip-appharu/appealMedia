@@ -11,15 +11,13 @@ const OurProducts = () => {
           <h1 className="font-bold lg:text-4xl  text-[2rem] text-center text-[#757575]">
             What we have done ?
           </h1>
-          <div className="flex lg:flex-row flex-col  lg:gap-x-10 items-center flex-wrap gap-y-7">
-            <Card />
-            <Card />
+          <div className="flex lg:flex-row sm:flex-row sm:justify-center sm:gap-x-5 flex-col  lg:gap-x-10 items-center flex-wrap gap-y-7">
             <Card />
             <Card />
           </div>
           <p
             onClick={() => Navigation("/products")}
-            className="text-end text-blue-700 underline cursor-pointer mr-35 hover:text-red-700 transition-all duration-300 "
+            className="text-end bg-blue-700 text-white px-4 py-2 inline-block w-fit rounded-md ml-7 cursor-pointer mr-35 hover:text-red-700 transition-all duration-300 "
           >
             See More
           </p>

@@ -10,7 +10,7 @@ const ContactUs = () => {
     <div className="flex flex-col min-h-screen">
       <NavigationBar />
 
-      <div className="flex flex-col md:flex-row justify-between w-[90%] mx-auto lg:mt-28 mt-10 gap-y-5 lg:gap-y-12 flex-grow min-h-screen ">
+      <div className="flex flex-col md:flex-row md:gap-x-5 justify-between w-[90%] mx-auto lg:mt-20 mt-10 md:mt-5 gap-y-5 lg:gap-y-12 flex-grow min-h-screen ">
         <div className="md:w-[50%] space-y-8">
           <h1 className="font-extrabold text-4xl md:text-5xl leading-tight">
             <span className="text-amber-600">Contact </span>
